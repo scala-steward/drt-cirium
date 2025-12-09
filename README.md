@@ -9,7 +9,6 @@ This codebase contains a Scala backend built using sbt. The service fetches flig
 To run the backend, enter the root of the codebase and run:
 
 ```bash
-JAVA_OPTS="-Xms1g -Xmx1g" \
 TZ=UTC \
 PORT_CODES=PIK,STN \
 CIRIUM_APP_ENTRY_POINT=https://api.flightstats.com/flex/flightstatusfeed/rest/v2/json/latest \
