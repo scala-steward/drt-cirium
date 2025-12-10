@@ -23,7 +23,11 @@ NO_JSON_LOGGING= \
 sbt run | tee cirium.log
 ```
 
-Make sure to replace `<secret>` with your actual Cirium API credentials from Kubernetes secrets.
+Make sure to replace `<secret>` with your actual Cirium API credentials from Kubernetes secrets
+
+You'll need to be connected to the ACP prod VPN to access secrets
+
+`kubectl -n drt-preprod get secrets cirium -o yaml`
 
 CIRIUM_APP_ID is from cirium -> app_id
 
