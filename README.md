@@ -32,3 +32,7 @@ You'll need to be connected to the ACP prod VPN to access secrets
 CIRIUM_APP_ID is from cirium -> app_id
 
 CIRIUM_APP_KEY is from cirium -> app_key
+
+Once you have the secret string from kubernetes you can decode it with
+
+`echo -n base64stringhere | base64 -d`
