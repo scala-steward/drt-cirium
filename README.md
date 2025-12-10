@@ -25,3 +25,6 @@ sbt run | tee cirium.log
 
 Make sure to replace `<secret>` with your actual Cirium API credentials from Kubernetes secrets.
 
+CIRIUM_APP_ID is from cirium -> app_id
+
+CIRIUM_APP_KEY is from cirium -> app_key
